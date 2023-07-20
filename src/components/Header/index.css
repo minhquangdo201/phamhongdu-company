@@ -1,0 +1,10 @@
+.header-container{
+    background-color: #F9FAFB;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-container{
+    display: flex;
+}

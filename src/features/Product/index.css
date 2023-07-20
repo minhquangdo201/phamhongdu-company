@@ -1,0 +1,19 @@
+.product-container {
+    width: 880px;
+    margin: auto;
+}
+
+.items-container{
+    margin-top: 80px;
+}
+
+.item {
+    display: flex;
+    margin: 20px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: math;
+}
