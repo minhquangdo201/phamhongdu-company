@@ -7,9 +7,9 @@ export const OriginPage = () => {
         <div className="page-container container-fluid">
             <div className='row'>
                 <div className="mt-md-4 mb-md-5">
-                    <h3>Xuất xứ</h3>
+                    <h3 className='mt-4 mb-4'>Xuất xứ</h3>
                 </div>
-                <div className="col-xl-12 mb-md-7">
+                <div className="col-xl-12 mb-5">
                     <h5>THÔNG TIN NHÀ SẢN XUẤT</h5>
                     <div className="item">
                         <div className="icon">
@@ -27,7 +27,7 @@ export const OriginPage = () => {
                         <div className="icon">Số điện thoại: 0983.448.889</div>
                     </div>
                 </div>
-                <div className="col-xl-12 mb-md-7">
+                <div className="col-xl-12 mb-5">
                     <h5>CHỨNG CHỈ CHỨNG NHẬN</h5>
                     <CertificateSlide />
                     <PublicationSlide />
