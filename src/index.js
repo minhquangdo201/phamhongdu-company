@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { BrowserRouter } from 'react-router-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

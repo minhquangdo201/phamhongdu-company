@@ -1,26 +1,22 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-responsive-carousel';
 import chungchi1 from '../assets/chungchi1.png'
 import chungchi2 from '../assets/chungchi2.png'
+import chungnhan from '../assets/chungnhan.png'
 
 export const CertificateSlide = () => {
     return (
         <Carousel>
-            <Carousel.Item className='slide'>
-                <img
-                    className="d-block w-100"
-                    src={chungchi1}
-                    alt="chungchi1"
-                />
-            </Carousel.Item>
-            <Carousel.Item className='slide'>
-                <img
-                    className="d-block w-100"
-                    src={chungchi2}
-                    alt="chungchi2"
-                />
-            </Carousel.Item>
+            <div>
+                <img src={chungchi1} />
+            </div>
+            <div>
+                <img src={chungchi2} />
+            </div>
+            <div>
+                <img src={chungnhan}/>
+            </div>
         </Carousel>
-        
+
     )
 }

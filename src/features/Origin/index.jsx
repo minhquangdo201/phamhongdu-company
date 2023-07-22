@@ -1,5 +1,4 @@
 import React from 'react';
-import chungnhan from './assets/chungnhan.png'
 import { CertificateSlide } from './SlideImage/Certificate';
 import { PublicationSlide } from './SlideImage/Publication';
 
@@ -32,9 +31,7 @@ export const OriginPage = () => {
                     <h5>CHỨNG CHỈ CHỨNG NHẬN</h5>
                     <CertificateSlide />
                     <PublicationSlide />
-                    <div>
-                        <img src={chungnhan} alt="chungnhan" />
-                    </div>
+
                 </div>
             </div>
 
