@@ -1,15 +1,24 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  let navigate = useNavigate();
+  const handleProduct = () => {
+    navigate('/product');
+  }
+  const handleOrigin = () => {
+    navigate('/origin');
+
+  }
   return (
     <div>
-      <Navbar bg="light" data-bs-theme="light" className='mb-5'>
+      <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">Tên công ty</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#introduction">Giới thiệu</Nav.Link>
+            <Nav.Link href="#product" onClick={handleProduct}>Sản phẩm</Nav.Link>
+            <Nav.Link href="#origin" onClick={handleOrigin}>Xuất xứ</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

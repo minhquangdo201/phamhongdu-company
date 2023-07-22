@@ -1,10 +1,6 @@
-.product-container {
-    width: 880px;
+.page-container {
+    max-width: 42rem;
     margin: auto;
-}
-
-.items-container{
-    margin-top: 80px;
 }
 
 .item {

@@ -2,10 +2,10 @@ import "./index.css"
 
 const ProductPage = () => {
     return (
-        <div className="product-container">
+        <div className="page-container container-fluid mt-md-5">
             <div className="row">
                 <h1 className="mb-5 text-center">CÔNG TY TNHH CHẾ BIẾN VÀ CUNG CẤP THỰC PHẨM PHẠM HỒNG DỰ</h1>
-                <div className="items-container col-md-9">
+                <div className="col-xl-12 mb-md-7">
                     <h3>THÔNG TIN SẢN PHẨM</h3>
                     <div>
                         <div className="item">
@@ -16,7 +16,7 @@ const ProductPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="items-container col-xl-12">
+                <div className="col-xl-12 mb-md-5">
                     <h3>NGUỒN GỐC XUẤT XỨ</h3>
                     <div>
                         <div className="item">
@@ -24,7 +24,7 @@ const ProductPage = () => {
                                 <i class="bi bi-info-circle-fill"></i>
                             </div>
 
-                            <div className="icon">Đơn vị: </div>
+                            <div className="icon">Đơn vị: CÔNG TY TNHH CHẾ BIẾN VÀ CUNG CẤP THỰC PHẨM PHẠM HỒNG DỰ</div>
                         </div>
                         <div className="item">
                             <div className="icon"><i class="bi bi-geo-alt-fill"></i></div>
@@ -37,7 +37,7 @@ const ProductPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="items-containe col-xl-12">
+                <div className="col-xl-12 mb-md-5">
                     <h3>THỜI HẠN SỬ DỤNG VÀ QUY CÁCH SẢN PHẨM</h3>
                     <div>
                         <div className="item">
@@ -55,7 +55,7 @@ const ProductPage = () => {
 
                     </div>
                 </div>
-                <div className="items-container col-xl-12">
+                <div className="col-xl-12 mb-md-5">
                     <h3>HƯỚNG DẪN CHẾ BIẾN VÀ BẢO QUẢN</h3>
                     <div>
                         <div className="item col--9">
@@ -67,9 +67,6 @@ const ProductPage = () => {
                             <div className="icon">Bảo quản ngăn đông đá tủ lạnh</div>
                         </div>
                     </div>
-                </div>
-                <div className="items-container col-xl-12">
-                    <h3>CHỨNG CHỈ CHỨNG NHẬN</h3>
                 </div>
             </div>
         </div>
