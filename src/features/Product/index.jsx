@@ -1,10 +1,23 @@
+import React from 'react';
 import "./index.css"
+import image1 from "../Product/assets/anh1.png"
+import image2 from "../Product/assets/anh2.png"
+import SimpleImageSlider from "react-simple-image-slider";
+
 
 const ProductPage = () => {
+    const images = [image1, image2]
     return (
         <div className="page-container container-fluid mt-md-5">
             <div className="row">
                 <h1 className="mb-5 text-center">CÔNG TY TNHH CHẾ BIẾN VÀ CUNG CẤP THỰC PHẨM PHẠM HỒNG DỰ</h1>
+                <div className='col-xl-12 mb-md-5'>
+                <SimpleImageSlider
+                            width={550}
+                            height={366}
+                            images={images}
+                            showNavs={true}/>
+                </div>
                 <div className="col-xl-12 mb-md-7">
                     <h3>THÔNG TIN SẢN PHẨM</h3>
                     <div>

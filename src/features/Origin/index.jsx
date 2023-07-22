@@ -1,3 +1,5 @@
+import React  from 'react';
+
 export const OriginPage = () => {
     return (
         <div className="page-container container-fluid">
