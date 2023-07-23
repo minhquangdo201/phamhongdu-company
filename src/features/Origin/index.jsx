@@ -26,6 +26,11 @@ export const OriginPage = () => {
                         <div className="icon"><i class="bi bi-telephone-fill"></i></div>
                         <div className="icon">Số điện thoại: 0983.448.889</div>
                     </div>
+                    <div className='iframe-rwd'>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.7733957295236!2d105.78631870000001!3d20.8004535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b5214ee7776f%3A0x9717a9a2ebfdea74!2zVGjDtG4gSG_DoG5nIFRydW5nLCB4w6MgSOG7k25nIETGsMahbmcsIFRoYW5oIG9haSBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1690085986014!5m2!1svi!2s"
+                            style={{width:'100%', height:'300px', border:0}}
+                        ></iframe>
+                    </div>
                 </div>
                 <div className="col-xl-12 mb-5">
                     <h5>CHỨNG CHỈ CHỨNG NHẬN</h5>
